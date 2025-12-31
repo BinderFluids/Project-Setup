@@ -24,7 +24,8 @@ public static class ProjectSetup {
             "git+https://github.com/BinderFluids/Unity-Scriptable-Variables.git",
             "git+https://github.com/adammyhre/Unity-Utils.git",
             "git+https://github.com/adammyhre/Unity-Improved-Timers.git",
-            "git+https://github.com/KyleBanks/scene-ref-attribute.git"
+            "git+https://github.com/KyleBanks/scene-ref-attribute.git",
+            "git+https://github.com/Cysharp/UniTask.git"
         });
     }
 
