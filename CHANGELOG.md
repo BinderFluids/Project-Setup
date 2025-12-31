@@ -5,3 +5,7 @@
 ## [1.0.1] - 12/31/2025
 ### Added UniTask
 - Added UniTask git URL to ProjectSetup.cs file
+
+## [1.0.2] - 12/31/2025
+### Added UniTask
+- Changed UniTask git URL
