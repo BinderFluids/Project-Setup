@@ -92,7 +92,7 @@ public static class ProjectSetup {
             while (!request.IsCompleted) await Task.Delay(10);
             
             if (request.Status == StatusCode.Success) Debug.Log("Installed: " + request.Result.packageId);
-            else if (request.Status >= StatusCode.Failure) Debug.LogError(request.Error.message);
+            else if (request.Status >= StatusCode.Failure) Debug.LogError("ERROR!!!! " +  request.Error.message);
 
             if (packagesToInstall.Count > 0) {
                 await Task.Delay(1000);
