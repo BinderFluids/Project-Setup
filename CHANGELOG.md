@@ -9,3 +9,7 @@
 ## [1.0.2] - 12/31/2025
 ### Added UniTask
 - Changed UniTask git URL
+
+## [1.0.3] - 2/15/2025
+### Added Registry and EVentBus
+- Added Registry and EventBus
