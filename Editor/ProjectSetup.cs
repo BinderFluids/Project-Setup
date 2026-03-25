@@ -21,13 +21,16 @@ public static class ProjectSetup {
     [MenuItem("Tools/Setup/Install Essential Packages")]
     public static void InstallPackages() {
         Packages.InstallPackages(new[] {
+            "git+https://github.com/BinderFluids/Serialized-Interface",
             "git+https://github.com/BinderFluids/Unity-Scriptable-Variables.git",
+            "git+https://github.com/BinderFluids/Registry.git",
+            "git+https://github.com/BinderFluids/EventBus.git",
+            "git+https://github.com/BinderFluids/Unity-Event-Wrapper.git",
             "git+https://github.com/adammyhre/Unity-Utils.git",
             "git+https://github.com/adammyhre/Unity-Improved-Timers.git",
             "git+https://github.com/KyleBanks/scene-ref-attribute.git",
             "git+https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-            "git+https://github.com/BinderFluids/Registry.git",
-            "git+https://github.com/BinderFluids/EventBus.git"
+            "git+https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1",
         });
     }
 
